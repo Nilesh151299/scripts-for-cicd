@@ -113,7 +113,7 @@ As soon as the build happens, i need to get an email notification to do that we 
 Before pasting the pipeline script, do the following changes in the script
 1. In the stage 'Tag and Push to DockerHub', give your docker-hub username. Similar thing you should do in 'DockerScoutImage', 'Deploy to container' stages
 2. In post actions stage in pipeline, make sure to give the email id you have configured in jenkins.
-
+ 
 *********************
 Pipeline Script
 *********************
